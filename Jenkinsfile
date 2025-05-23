@@ -13,7 +13,6 @@ pipeline {
         stage('Test') { 
             steps { 
                 sh 'echo "Running tests..."' 
-                // Ajoutez ici des commandes pour exécuter des tests unitaires 
             } 
         } 
         stage('Push to Docker Hub') { 
